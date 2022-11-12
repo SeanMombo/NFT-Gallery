@@ -1,18 +1,15 @@
 ## Steps
 
-### `yarn start`
+1. yarn start 
 
-Run the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    Run the app in the development mode.\
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. yarn nodemon server/server
 
-### `yarn nodemon server/server`
+    Start the express server
 
-Start the express server
+3. yarn test
 
-### `yarn test`
-
-Run the Jest unit tests on the /api/nft/:address API route
+    Run the Jest unit tests on the /api/nft/:address API route
 
