@@ -7,7 +7,7 @@ import ErrorMessage from './components/ErrorMessage/ErrorMessage';
 function App() {
   return (
     <div className="App">
-      <h1>NFT VIEWER</h1>
+      <h1>NFT Gallery</h1>
       <h4>By: Sean Mombo</h4>
       <SearchBar/>
       <ErrorMessage/>

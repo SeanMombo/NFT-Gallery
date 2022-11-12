@@ -7,17 +7,16 @@
   padding: 6px 0 40px;
   width: 50%;
 }
-h1 {
+.searchbar h1 {
   white-space: nowrap;
-  flex: 1;
 }
-input {
+.searchbar input {
   width: 90%;
   height: 40px;
   font-size: 20px;
 }
 
-button {
+.searchbar button {
   height: 46px;
   width: 120px;
 }

@@ -25,10 +25,10 @@
   transform: translateZ(50px);
 }  
 
-img {
+.nft-card img {
   width: 80%;
 }
 
-h3 {
+.nft-card h3 {
   font-size: 2rem;
 }
