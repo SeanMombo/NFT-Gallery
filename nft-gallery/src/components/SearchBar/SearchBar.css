@@ -1,0 +1,33 @@
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 6px 0 40px;
+  width: 50%;
+}
+h1 {
+  white-space: nowrap;
+  flex: 1;
+}
+input {
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+}
+
+button {
+  height: 46px;
+  width: 120px;
+}
+
+@media (max-width: 768px) {
+  .searchbar {
+    padding: 30px 10% 30px;
+    width: 80%;
+  }
+  input {
+    width: 100%;
+  }
+}

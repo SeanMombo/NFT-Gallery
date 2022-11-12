@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: rgb(243, 243, 243);
+}
+
+h1 {
+  margin: 10px 0 0;
+  flex: unset;
+}
+h4 {
+  font-size: 15px;
+  margin: 0 0 10px;
+}
